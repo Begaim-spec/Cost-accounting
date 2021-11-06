@@ -52,6 +52,6 @@
     ]
   },
   "devDependencies": {
-    "@mui/lab": "^5.0.0-alpha.50"
+    "@mui/lab": "^5.0.0-alpha.53"
   }
 }
