@@ -7,8 +7,10 @@ import AdapterDateFns from '@mui/lab/AdapterDateFns';
 import LocalizationProvider from '@mui/lab/LocalizationProvider';
 
 ReactDOM.render(
+    <LocalizationProvider dateAdapter={AdapterDateFns}>
     <Provider store={store}>
         <App/>
-    </Provider>,
+    </Provider>
+    </LocalizationProvider>,
     document.getElementById('root'))
 
